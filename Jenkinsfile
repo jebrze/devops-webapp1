@@ -1,7 +1,7 @@
 //START-OF-SCRIPT
 //comment11
 timeout(time: 60, unit: 'SECONDS') {
-    node('agent1') {
+    node('master') {
         def RELEASENAME = "webapp.war"
 
         properties([
